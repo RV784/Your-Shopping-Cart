@@ -64,7 +64,7 @@ class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
         ],
       ),
       drawer: AppDrawer(),
-      body: new ProductsGrid(_showOnlyFavoritesData),
+      body: ProductsGrid(_showOnlyFavoritesData),
     );
   }
 }
